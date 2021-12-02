@@ -17,9 +17,10 @@ header {
       background: #A1F0C1;
     }
   
-.formulario {  /*queria que esto se viera abajito como en el figma pero no lo he logrado hacer...*/
-    justify-content: center;
-    align-items: center;
+main {  /*queria que esto se viera abajito como en el figma pero no lo he logrado hacer...*/
+  position: absolute;
+  justify-content: center;
+  align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
     width: 323px;
