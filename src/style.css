@@ -1,34 +1,52 @@
 
 body {
-    font-family: system-ui;
-    background: #CAEBF2;
-    color: black;
-    text-align: center;
-  }
+  font-family: system-ui;
+  background: #CAEBF2;
+  color: black;
+  text-align: center;
+}
 
-header {
-      justify-content: center;
-      align-items: center;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      position: absolute;
-      width: 700px;
-      height: 120px;
-      background: #A1F0C1;
-    }
-  
-main {  /*queria que esto se viera abajito como en el figma pero no lo he logrado hacer...*/
-  position: absolute;
+.Titulo {
+  display: flex;
   justify-content: center;
   align-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    width: 323px;
-    height: 24px;
-    font-family: Rhodium Libre;
-    font-size: 16px;
-    line-height: 27px;
-    color: #000000;
+  margin:auto;
+  margin-top:5px;
+  margin-bottom: 5px;
+width: 700px;
+height: 120px;
+background: #A1F0C1;
 }
-  
-  
+
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  margin-top:40px;
+  margin-bottom:40px;
+  margin-left: 700px;
+  margin-right: 10px; 
+  width: 250px;
+height: 250px;
+
+background: #96B1E7;
+box-shadow: 0px 4px 8px grey;
+border-radius: 45px;
+max-width: 350px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+text-size-adjust: 11px;
+width: 700px;
+height: 76px;
+background: #F5D8B6;
+}
