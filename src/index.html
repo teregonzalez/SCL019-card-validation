@@ -9,24 +9,52 @@
 </head>
 
 <body>
-  <header>
-    <div class="Titulo">
-      <h1>Sweet Code </h1>
-     <p>Soluciones para tus proyectos virtuales</p></div>
-  </header><br>
-  <main>
-  <div>
-  <Form>
-    <label for="select-example">Seleccione su Banco</label>
-       <select name="select-example"> 
-   <option placeholder="Selecciones su Banco">
-    <option value="value1">Banco Estado</option>
-    <option value="value2">Banco Scotiebank</option>
-    <option value="value3">Banco de Chile</option>
-  </select>
-  </Form>
-  </div>
-  </main>
-  <script src="index.js"></script>
+  <div class="Titulo">
+<header>
+  <h1>Sweet Code </h1>
+ <p>Soluciones para tus proyectos virtuales</p></div>
+</header>
+
+<div class="banco">
+<main>
+<Form>
+
+<label for="select-example">Seleccione su Banco</label>
+<br>
+<select id="select-example" name="bank" required= "" autocomplete="off"> 
+<option disabled selected>Seleccione su Banco></option>
+<option value="value1">Banco Estado</option>
+<option value="value2">Banco Scotiabank</option>
+<option value="value2">Banco Itau</option>
+<option value="value2">Banco Santander</option>
+<option value="value3">Banco de Chile</option>
+<i class="imagen"></i>
+</select>
+
+<br><br>
+
+<label for="cardNumber">Ingresa el numero de tu tarjeta: <br></label>
+<input type="text" id="cNumber" name="cardNumber" placeholder="xxxx-xxxx-xxxx-xxxx" value="" required>
+
+<br><br>
+
+<label for="expNumber">Ingresa la fecha de expiración: <br></label>
+<input type="text" id="eNumber" name="expNumber" placeholder="xx-xx" value="" required>
+
+<br><br>
+
+
+<input type="submit" value="Verificar" class="btn">
+</div>
+
+
+</Form>
+
+</main>
+<footer>
+<p>Visita nuestras redes sociales y conoce nuestras promociones diarias. 
+  <br>Suscribete a nuestro Newsletter.</p>
+</footer>
+  <script src="script.js"></script>
 </body>
 </html>
