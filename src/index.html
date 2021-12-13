@@ -1,63 +1,56 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Sweet Code</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Sweet Code</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <link href='https://fonts.googleapis.com/css?family=Rhodium Libre' rel='stylesheet'>
   </head>
-  <body>
-    <div class="Titulo">
+<body>
 <header>
     <h1>Sweet Code </h1>
-   <p>Soluciones para tus proyectos virtuales</p>
-</header>  
-</div>
+   <em>Soluciones para tus proyectos virtuales</em>
+</header> 
 
 <section>
 <figure>
-   <div class="Pagar"> 
-     <p style="color:black; background-color: #CFFFC7; border: 1px solid black; width: 200px; margin:auto; margin-top:10px; border-radius: 20px;" ><strong>Productos Seleccionados</strong></p> <br>
+   <div class="Pselection"> 
+     <p class="p1">Productos Seleccionados</p><br>
   <p1>-Servicio de diseño UX</p1><br>
   <p2>-Código html tienda </p2>
    </div>
-   
-
     <img src="imagenes/carrito.png" alt="Carrito" class="carrito">
-  </figure>
+</figure>
+
   <main>
-<Form>
-  <h2 style="color:black; background-color: #CFFFC7; border: 1px solid white; width: 250px; margin:auto; margin-top:10px; margin-bottom:10px;border-radius: 20px"><strong>Validación de tarjeta</strong></h2>
- <label for="select-example"><strong>Seleccione su Banco</strong></label>
+  <form>
+  <h2>Validación de tarjeta</h2>
+ <label for="select-example">Seleccione su Banco</label>
   <br>
-  <select id="select-example" name="bank" required= "" autocomplete="off"> 
- <option disabled selected>Seleccione su Banco</option>
-  <option value="value1">Banco Estado</option>
-  <option value="value2">Banco Scotiabank</option>
-  <option value="value2">Banco Itau</option>
-  <option value="value2">Banco Santander</option>
-  <option value="value3">Banco de Chile</option>
-  <i class="imagen"></i>
-</select>
-
- <br><br>
-
-<label for="cardNumber"><strong>Ingresa el numero de tu tarjeta:</strong><br></label>
-<input type="text" id="cNumber" name="cardNumber" placeholder="xxxx-xxxx-xxxx-xxxx" value="" required>
-
- <br><br>
-
-<label for="expNumber"><strong>Ingresa la fecha de expiración:</strong><br></label>
-<input type="text" id="eNumber" name="expNumber" placeholder="xx-xx" value="" required>
-
- <br><br>
-<input type="submit" value="Verificar" class="btn" >
-    
-     </Form>
+<!--Utilizamos required, minlength y maxlength para validar desde html-->
+ <select id="select-example" name="bank" required> 
+   <option disabled selected>Seleccione su Banco</option>
+    <option value="value1">Banco Estado</option>
+    <option value="value2">Banco Scotiabank</option>
+    <option value="value2">Banco Itau</option>
+    <option value="value2">Banco Santander</option>
+    <option value="value3">Banco de Chile</option>
+    <i class="imagen"></i>
+  </select><br><br>
+<label for="cardNumber">Ingresa el número de tu tarjeta:<br></label>
+  <input id="cNumber" type="text" placeholder="xxxx-xxxx-xxxx-xxxx" maxlength="16" minlength="16" required>
+<label for="expNumber">Ingresa la fecha de expiración:<br></label>
+ <input type="text" id="eNumber" name="expNumber" placeholder="xx-xx" required>
+<br><br>
+<button>Pagar</button>
+<p id="message"></p>
+<!--
+<button type="submit" id="enviar">Enviar</button>
+-->
+</form>
 </main>
 </section>
+
 <footer>
   <div>
   <p1>Visita nuestras redes sociales y conoce nuestras promociones diarias. 
@@ -65,9 +58,8 @@
     <img src="imagenes/fb.png" alt="fb" class="fb">
 <img src="imagenes/insta.png" alt="insta" class="insta">
 <img src="imagenes/twitter.png" alt="twitter" class="twitter">
-
       </div>
+      <script src="index.js" type="module"></script>
 </footer>
-    <script src="script.js"></script>
-  </body>
+</body>
 </html>
