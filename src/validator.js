@@ -1,6 +1,7 @@
 const validator = { //Se crea objeto validator
   
-  isValid(creditCardNumber){
+
+    isValid(creditCardNumber){
    
      let numberArray = creditCardNumber.split('');
     
@@ -33,17 +34,17 @@ const validator = { //Se crea objeto validator
       return false;
     }
 
-}
-  };
-    
-           /* 
-      
-}
-} 
-  //maskify(creditCardNumber) {
-  //return creditCardNumber.slice(0,-4).replace(/./g, "#") + creditCardNumber.slice(-4);
-      //reemplaza los numeros de la tarjeta desde la posicion 0 a la -4 por #
+  }
+  
+  ,  
+  maskify(creditCardNumber)  {
+    return creditCardNumber.slice(0,-4).replace(/./g, "#") + creditCardNumber.slice(-4);
+  //reemplaza los numeros de la tarjeta desde la posicion 0 a la -4 por #
       //Y solo muestra los ultimos cuatro numeros
-   */   
+    }           
+
+
+      
+   };    
 
 export default validator;
