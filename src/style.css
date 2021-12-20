@@ -48,12 +48,12 @@ padding-top: 10px;
   padding-left: 10x;
   padding-right: 10px;
   padding-bottom: 10px;
-  margin-top:40px;
+  margin-top:10px;
   margin-bottom:40px;
   margin-left: 10px;
   margin-right: 10px; 
   width: 300px;
-height: 300px;
+height: 360px;
 background: rgb(149, 85, 233);
 box-shadow: 0px 4px 8px 5px rgba(0, 0, 0, 0.25);
 border-radius: 45px;
@@ -119,6 +119,14 @@ input{
   height: 25px;
   background: #EFF9FB;
   border: 0px;
+}
+
+#cvv{
+display: left;
+width: 140px;
+height: 25px;
+background: #EFF9FB;
+border: 0px;
 }
 
 button{
