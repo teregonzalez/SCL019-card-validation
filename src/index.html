@@ -38,11 +38,12 @@
     <i class="imagen"></i>
   </select><br><br>
 <label for="cardNumber">Ingresa el número de tu tarjeta:<br></label>
-  <input id="cNumber" type="text" placeholder="xxxx-xxxx-xxxx-xxxx" maxlength="16" minlength="16" required>
+  <input id="cNumber" type="text" placeholder="xxxx-xxxx-xxxx-xxxx" maxlength="16" minlength="10" required>
 <label for="expNumber">Ingresa la fecha de expiración:<br></label>
 <input type="month" name="expNumber" id="eNumber" class="form-control" value="2021-12" placeholder="xx-xx" required>
 <br><br>
 <button type="button">Pagar</button>
+<button type="reset" value="Limpiar formulario">Limpiar</button>
 <p id="message"></p>
 <!--
 <button type="submit" id="enviar">Enviar</button>
