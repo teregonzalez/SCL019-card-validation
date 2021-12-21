@@ -12,7 +12,8 @@ btn.addEventListener('click', () => {
   
   
   if( selectBank == null || selectBank == 0 ) {
-    return false;
+   alert("Seleccione su banco");
+    return;
   }
   
 if (nameComple.length == ""){
