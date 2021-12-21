@@ -1,5 +1,6 @@
 
 @import url("https://fonts.googleapis.com/css?family=Rhodium Libre");
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 
 body {
   font-family: system-ui;
@@ -72,6 +73,14 @@ border-radius: 28px;
  padding-top: 10px;
  padding-bottom: 10px;
 }
+
+.btnComprar{
+  position: relative;
+  left: 280px;
+  margin-top:10px;
+  max-width: 40px;
+  max-height: 40px;
+}
 .carrito{
   display: right;
   max-width: 235px;
@@ -79,6 +88,10 @@ border-radius: 28px;
   margin-top:10px;
   border-radius: 45px;
   box-shadow: 0px 4px 8px 5px rgba(0, 0, 0, 0.25);
+}
+
+.tech{
+  display: right;
 }
 
 section{
@@ -96,6 +109,14 @@ footer {
 text-size-adjust: 11px;
 height: 150px;
 background: #F5D8B6;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+background: #f7c6cc;
+height: 70px;
 }
 
 .fb{
@@ -138,4 +159,18 @@ button{
   height: 25px;
   background: #EFF9FB;
   border: 0px;
+}
+p.presentacion{
+  display: left;
+  font-family: 'Bungee', cursive;
+  color: rgb(33, 157, 165);
+  font-size: 50px;
+  margin-left: 10px;
+}
+.btnHome{
+  position: relative;
+  right: 280px;
+  margin-top:10px;
+  max-width: 40px;
+  max-height: 40px;
 }
