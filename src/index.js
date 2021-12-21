@@ -35,6 +35,11 @@ if(creditCardNumber.length == ""){
   alert("Ingrese número de tarjeta ");
   return;
 }
+
+if( isNaN(creditCardNumber) ) {
+  alert("Debe ingresar solo números")
+return;}
+
    let validacion = validator.isValid(creditCardNumber);
    if (validacion === true){
    document.getElementById("message").innerHTML="Su número de tarjeta es Válida";
