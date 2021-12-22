@@ -36,14 +36,14 @@ El feedback de Cynthia fue muy positivo a ella le gusto bastante nuestro destaca
 El consejo que nos dio fue que en vez de hacer espacios en el html con “<br>” los podríamos hacer en css, y que en el css podríamos darle todas las indicaciones al padding desde un solo llamado y no llamando cada padding para darle las especificaciones.
 Por lo demás le pareció muy completo y nos felicitó por el trabajo realizado.
 
-## Feedback de Teresa.
+## Feedback de Teresa
 Compañera que realiza feedback es Isis Aguilar.
 En general les gustó mucho el diseño de la interfaz.
 Propone reducir el código a uno más corto y eficaz.
 Reemplazar mensaje de validación a un texto dinámico.
 Utilizar condicional switch.
 
-## Prototipo fina el figma
+## Prototipo final en figma
 Esta es la imagen de nuestro prototipo final, aunque cambiamos algunos aspectos.
 ![2021-12-21](https://user-images.githubusercontent.com/81347919/147141776-1b26e523-6e15-4496-b89f-a374c946e558.png)
 
