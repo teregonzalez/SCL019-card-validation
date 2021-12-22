@@ -31,8 +31,8 @@ btn.addEventListener('click', () => {
         return;
     }
 
-    if (creditCardNumber.length == "") {
-        alert("Ingrese número de tarjeta ");
+    if (creditCardNumber.length != 16 ) {
+        alert("Ingrese los 16 digitos de su n° de tarjeta");
         return;
     }
 
@@ -42,10 +42,10 @@ btn.addEventListener('click', () => {
     }
 
     let validacion = validator.isValid(creditCardNumber);
-    if (validacion === true) {
-        document.getElementById("message").innerHTML = "Su número de tarjeta es válida";
+    if (validacion) {
+        document.getElementById("message").textContent = "Su número de tarjeta es válida";
     } else {
-        document.getElementById("message").innerHTML = "Su número de tarjeta NO es válida";
+        document.getElementById("message").textContent = "Su número de tarjeta NO es válida";
     }
 
     let enmascarar = validator.maskify(creditCardNumber);
