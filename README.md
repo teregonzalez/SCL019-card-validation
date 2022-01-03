@@ -11,12 +11,18 @@ Aplicación web para la marca Sweet Code, que ofrece desarrollo de imagen e inte
 ## Usuarios y objetivos
 
 El usuario es un público joven, con perspectiva de género y con intereses en el área de tecnología y programación.
-La organización de los box y los colores se seleccionaron para hacer de la experiencia una mezcla de frescura, ternura y juego. Dándole un horizonte más amplio a los distintos grupos etarios que pudiesen interesarse en nuestros productos. Es una página que invita a conocer el mundo de los códigos desde una mirada con perspectiva de género dejando atrás las áreas estereotipadas.
+
+La organización de los box y los colores se seleccionaron para hacer de la experiencia una mezcla de frescura, ternura y juego. Dándole un horizonte más amplio a los distintos grupos etarios que pudiesen interesarse en nuestros productos. Es una página que invita a conocer el mundo de los códigos desde una mirada con perspectiva de género dejando atrás las áreas estereotipadas de la programación.
+
+La organización de los box y los colores se seleccionaron para hacer de la experiencia una mezcla de frescura, ternura y juego. Dándole un horizonte más amplio a los distintos grupos etarios que pudiesen interesarse en nuestros productos. Es una página que invita a conocer el mundo de los códigos desde una mirada con perspectiva de género dejando atrás las áreas estereotipadas  de la programación.
+
 
 ## Uso del proyecto
 
-La empresa ofrece un producto que ofrece repositorios para páginas webs con funciones determinadas, proporcionando herramientas para que cada usuario pueda modificar y crear nuevas páginas visualmente originales.
-En lo concreto nosotras resolvimos la validación de los números de tarjeta de crédito, utilizando el algoritmo de luhn, pudimos verificar que la tarjeta ingresada sea válida. 
+La empresa ofrece productos para plataformas virtuales, como repositorios para páginas webs con funciones determinadas que proporcionan herramientas para que cada usuario pueda modificar y crear nuevas páginas visualmente originales.
+
+En lo concreto nosotras resolvimos la validación de los números de tarjeta de crédito, utilizando el algoritmo de luhn, y logramos verificar que la tarjeta ingresada sea válida o no.
+
 Facilitamos un formulario para que nuestras usuarias y usuarios puedan ingresar los datos de la tarjeta y así poder revisar que estos datos sean válidos.
 Realizamos un formato simple,  en donde se destaca el box con un morado llamativo en la estructura donde deben ser ingresados los datos.
 
@@ -32,7 +38,11 @@ Realizamos un formato simple,  en donde se destaca el box con un morado llamativ
 
 ## Feedback de Aymara
 compañera que realiza feedback es Cynthia Delasio.
-El feedback de Cynthia fue muy positivo a ella le gusto bastante nuestro destacando la experiencia de usuario, ya que le gustaron los colores y el formato de página utilizado. 
+
+El feedback de Cynthia fue muy positivo a ella le gusto bastante nuestro  trabajo, destacando la experiencia de usuario, ya que le gustaron los colores y el formato de página utilizado. 
+
+El feedback de Cynthia fue muy positivo a ella le gusto bastante nuestro trabajo, destacando la experiencia de usuario, ya que le gustaron los colores y el formato de página utilizado. 
+
 El consejo que nos dio fue que en vez de hacer espacios en el html con “<br>” los podríamos hacer en css, y que en el css podríamos darle todas las indicaciones al padding desde un solo llamado y no llamando cada padding para darle las especificaciones.
 Por lo demás le pareció muy completo y nos felicitó por el trabajo realizado.
 

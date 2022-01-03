@@ -1,11 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Rhodium Libre");
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 
+html{
+  font-size: 100%;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
 body {
+  margin: 0;
+  padding: 0;
   font-family: system-ui;
   background: rgb(204, 244, 253);
   color: black;
   text-align: center;
+
 }
 
 .p1 {
@@ -34,8 +42,8 @@ h2 {
   border: 1px solid white;
   width: 250px;
   margin: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border-radius: 20px;
   font-weight: bolder;
 }
@@ -54,34 +62,47 @@ header {
 
 label {
   font-weight: bolder;
+  font-size: 17px;
+  line-height: 1.5;
+  display: block;
+  margin: .5em 0 0 0;
 }
 
 main {
   display: left;
+  position: relative;
+  left: 90px;
   justify-content: center;
-  padding-top: -10px 10px 10px 10px;
   margin: 10px 10px 40px 10px;
-  width: 300px;
-  height: 450px;
+  width: 350px;
+  height: 520px;
   background: rgb(149, 85, 233);
   box-shadow: 0px 4px 8px 5px rgba(0, 0, 0, 0.25);
   border-radius: 45px;
+  
+
 }
 
 .Pselection {
   text-align: center;
-  display: rigth;
+  display: right;
+  position: relative;
+  right: 100px;
   width: 235px;
-  height: 100px;
+  height: 200px;
   background: rgb(242, 181, 245);
   box-shadow: 0px 4px 8px 5px rgba(0, 0, 0, 0.25);
   border-radius: 28px;
   margin-bottom: 10px;
+  margin-top: -70px;
   padding-top: 10px;
   padding-bottom: 10px;
+  line-height: 1.5;
+ 
 }
 
 .btnComprar {
+
   position: relative;
   left: 280px;
   width: 38px;
@@ -89,15 +110,18 @@ main {
 }
 
 .carrito {
+ 
   display: right;
+  position: relative;
+  right: 100px;
   max-width: 235px;
-  max-height: 3500px;
+  max-height: 350px;
   margin-top: 10px;
   border-radius: 45px;
   box-shadow: 0px 4px 8px 5px rgba(0, 0, 0, 0.25);
 }
 
-.tech {
+.tech{
   display: right;
 }
 
@@ -105,7 +129,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto;
+  margin-top: 10px;
 }
 
 footer {
@@ -146,30 +170,29 @@ nav {
 }
 
 input {
-  width: 253px;
-  height: 25px;
+  width: 254px;
+  height: 30px;
   background: #EFF9FB;
   border: 0px;
+  margin-bottom: 10px;
+  justify-content: center;
+
 }
 
-#cvv {
-  display: left;
-  width: 140px;
-  height: 25px;
-  background: #EFF9FB;
-  border: 0px;
-}
 
 button {
   width: 100px;
-  height: 25px;
+  height: 30px;
+ margin: 1em 0;
 }
 
+
 #select-example {
-  width: 253px;
-  height: 25px;
+  width: 254px;
+  height: 30px;
   background: #EFF9FB;
   border: 0px;
+  margin-bottom: 10px;
 }
 
 p.presentacion {
@@ -187,6 +210,30 @@ p.presentacion {
   height: 38px;
 }
 
+.cuboxValid {
+    
+    position:absolute;
+    width: 320px;
+    height: 90px;
+    left: -300px;
+    top: 330px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.cardValid {
+  padding: 15px;
+  font-size: 19px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
 #message{
   font-family: 'Rhodium Libre';
   font-weight: bold;
@@ -196,3 +243,4 @@ p.presentacion {
   justify-content: center;
   margin: auto;
 }
+
