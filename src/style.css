@@ -215,7 +215,7 @@ p.presentacion {
     position:absolute;
     width: 320px;
     height: 90px;
-    left: 10px;
+    left: -300px;
     top: 330px;
     background: #FFFFFF;
     border: 1px solid #000000;
