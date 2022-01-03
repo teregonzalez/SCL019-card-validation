@@ -21,8 +21,6 @@ La organización de los box y los colores se seleccionaron para hacer de la expe
 
 La empresa ofrece productos para plataformas virtuales, como repositorios para páginas webs con funciones determinadas que proporcionan herramientas para que cada usuario pueda modificar y crear nuevas páginas visualmente originales.
 
-En lo concreto nosotras resolvimos la validación de los números de tarjeta de crédito, utilizando el algoritmo de luhn, y logramos verificar que la tarjeta ingresada sea válida o no. 
-=======
 En lo concreto nosotras resolvimos la validación de los números de tarjeta de crédito, utilizando el algoritmo de luhn, y logramos verificar que la tarjeta ingresada sea válida o no.
 
 Facilitamos un formulario para que nuestras usuarias y usuarios puedan ingresar los datos de la tarjeta y así poder revisar que estos datos sean válidos.
