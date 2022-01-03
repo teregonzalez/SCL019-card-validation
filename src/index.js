@@ -67,10 +67,10 @@ let limpiar = document.getElementById('reset');
 limpiar.addEventListener('click', () => {
 
     let numTarget= document.getElementById('cNumber');
-    let alertBox= document.getElementsByClassName('cuboxValid');
+    let cleanBox= document.getElementsByClassName('cuboxValid');
     numTarget.value='';
   
-    for (let i= 0; i < alertBox.length; i++) {
-        alertBox[i].style.display='none';
+    for (let i= 0; i < cleanBox.length; i++) {
+        cleanBox[i].style.display='none';
     }
 });
